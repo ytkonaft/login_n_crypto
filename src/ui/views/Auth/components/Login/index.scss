@@ -8,22 +8,40 @@
   overflow: hidden;
   padding: 25px 15px 40px;
   flex-direction: column;
-  button {
+  label {
+    display: block;
+    font-size: 15px;
+    margin-bottom: 10px;
+  }
+  .btn {
     height: 45px;
     line-height: 45px;
     border: none;
     color: #fff;
+    width: 100%;
     text-transform: uppercase;
     padding: 0;
     background-color: $purple_main;
   }
-  input {
+  .invalid-feedback {
+    font-size: 12px;
+    color: red;
     padding-left: 10px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 3px;
-    font-size: 14px;
-    border: 1px solid $gray_light;
+    margin-top: 4px;
+    text-align: right;
+  }
+  .form-group {
     margin-bottom: 25px;
+
+    input {
+      padding-left: 10px;
+      height: 30px;
+      box-sizing: border-box;
+      width: 100%;
+      line-height: 30px;
+      border-radius: 3px;
+      font-size: 14px;
+      border: 1px solid $gray_light;
+    }
   }
 }
