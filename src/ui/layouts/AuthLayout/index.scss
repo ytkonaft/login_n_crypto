@@ -1,0 +1,10 @@
+@import 'ui/style/variables/colors.scss';
+
+.auth-layout {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #bdc3c7, #2c3e50);
+}

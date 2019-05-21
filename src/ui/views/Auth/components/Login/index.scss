@@ -1,0 +1,29 @@
+@import 'ui/style/variables/colors.scss';
+
+.login-form {
+  background-color: #fff;
+  border-radius: 10px;
+  width: 350px;
+  display: flex;
+  overflow: hidden;
+  padding: 25px 15px 40px;
+  flex-direction: column;
+  button {
+    height: 45px;
+    line-height: 45px;
+    border: none;
+    color: #fff;
+    text-transform: uppercase;
+    padding: 0;
+    background-color: $purple_main;
+  }
+  input {
+    padding-left: 10px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 3px;
+    font-size: 14px;
+    border: 1px solid $gray_light;
+    margin-bottom: 25px;
+  }
+}

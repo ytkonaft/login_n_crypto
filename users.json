@@ -1,0 +1,25 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Bruno",
+      "email": "qwe@qwe.qwe",
+      "password": "123qwe",
+      "image": "https://randomuser.me/api/portraits/men/41.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Techie",
+      "email": "techie@email.com",
+      "password": "techie",
+      "image": "https://randomuser.me/api/portraits/men/48.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Nilson",
+      "email": "nilson@email.com",
+      "password": "nilson",
+      "image": "https://randomuser.me/api/portraits/men/44.jpg"
+    }
+  ]
+}
