@@ -2,11 +2,9 @@
 
 ```sh
 $ npm i
-```
 
 or
 
-```sh
 $ yarn install
 ```
 
@@ -16,11 +14,9 @@ $ yarn install
 
 ```sh
 $ npm run run-server
-```
 
 or
 
-```sh
 $ yarn run-server
 ```
 
@@ -28,10 +24,8 @@ $ yarn run-server
 
 ```sh
 $ npm run dev
-```
 
 or
 
-```sh
 $ yarn dev
 ```
