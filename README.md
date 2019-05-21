@@ -1,23 +1,37 @@
-Run command for install dependencies
+1.Run command for install dependencies
 
-### `npm i`
-
-or
-
-### `yarn install`
-
-Run node server
-
-### `npm run run-server`
+```sh
+$ npm i
+```
 
 or
 
-### `yarn run-server`
+```sh
+$ yarn install
+```
 
-Start webpack-dev-server
+2.Create .env file
 
-### `npm v`
+3.Run node server
+
+```sh
+$ npm run run-server
+```
 
 or
 
-### `yarn dev`
+```sh
+$ yarn run-server
+```
+
+4.Start webpack-dev-server
+
+```sh
+$ npm run dev
+```
+
+or
+
+```sh
+$ yarn dev
+```
