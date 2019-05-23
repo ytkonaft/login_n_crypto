@@ -8,7 +8,7 @@ export const login = userData => async (dispatch) => {
   try {
     const {
       data: { access_token, ...user }
-    } = await request.post('/auth/login', userData, {
+    } = await request.post('auth/login', userData, {
       notAuthorizeHeader: true
     });
     localStorage.setItem('auth_token', access_token);
@@ -38,7 +38,7 @@ export const checkJwt = () => async (dispatch) => {
   try {
     const {
       data: { access_token, ...user }
-    } = await request.get('/auth/me');
+    } = await request.get('auth/me');
     localStorage.setItem('auth_token', access_token);
     dispatch(toLogin());
     dispatch(userOperations.setUser(user));

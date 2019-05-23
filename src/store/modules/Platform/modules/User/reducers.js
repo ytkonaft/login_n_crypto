@@ -1,7 +1,7 @@
 import { createReducer } from 'store/utils';
 import * as types from './types';
 
-const initUserState = {
+export const initUserState = {
   userData: null
 };
 

@@ -17,17 +17,6 @@ module.exports = {
     '^.+\\.svg$': 'jest-svg-transformer'
   },
 
-  testEnvironmentOptions: {
-    beforeParse(window) {
-      window.document.childNodes.length === 0;
-      window.alert = (msg) => {
-        console.log(msg);
-      };
-      window.matchMedia = () => ({});
-      window.scrollTo = () => {};
-    }
-  },
-
   // The directory where Jest should output its coverage files
   coverageDirectory: 'coverage',
 
