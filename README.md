@@ -1,31 +1,36 @@
-### `1.Run command for install dependencies`
+**1. Run command for install dependencies**
 
 ```sh
-$ npm i
-
-or
-
 $ yarn install
 ```
 
-### `2.Create .env file`
+**2. Create .env file**
 
-### `3.Run node server`
+**3. Run node server**
 
 ```sh
-$ npm run run-server
-
-or
-
 $ yarn run-server
 ```
 
-### `4.Start webpack-dev-server`
+**4. Start webpack-dev-server**
+Project is running on: http://localhost:3009
 
 ```sh
-$ npm run dev
-
-or
-
 $ yarn dev
+```
+
+**5. Build the project**
+
+```sh
+$ yarn build
+```
+
+**Run test**
+
+```sh
+$ yarn test
+
+$ yarn test-watch
+
+$ yarn test-coverage
 ```
