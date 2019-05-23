@@ -12,7 +12,7 @@ $ yarn install
 $ yarn run-server
 ```
 
-**4. Start webpack-dev-server**
+**4. Start webpack-dev-server**\
 Project is running on: http://localhost:3009
 
 ```sh
