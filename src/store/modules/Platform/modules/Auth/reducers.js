@@ -1,7 +1,7 @@
 import { createReducer } from 'store/utils';
 import * as types from './types';
 
-const authInitState = {
+export const authInitState = {
   isLoaded: false,
   isFetching: false,
   isLogined: false,
@@ -23,7 +23,9 @@ const authReducer = createReducer(authInitState)({
   }),
   [types.AUTHENTICATION_ERROR]: (state, { payload }) => ({
     ...state,
-    error: payload
+    error: {
+      message: payload
+    }
   })
 });
 
