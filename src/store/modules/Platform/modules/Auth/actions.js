@@ -1,8 +1,7 @@
 import * as types from './types';
 
-export const toLogin = payload => ({
-  type: types.AUTHENTICATED,
-  payload
+export const toLogin = () => ({
+  type: types.AUTHENTICATED
 });
 
 export const showError = payload => ({
